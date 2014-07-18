@@ -4,7 +4,7 @@ import datetime
 import json
 import urllib2
 import matplotlib.pyplot as plt
-weather = urllib2.urlopen("http://api.openweathermap.org/data/2.5/forecast/daily?id=2659296&cnt=14&units=metric&lang=fr")
+weather = urllib2.urlopen("http://api.openweathermap.org/data/2.5/forecast/daily?id=2222296&cnt=14&units=metric&lang=fr")
 wjson = weather.read()
 wjdata = json.loads(wjson)
 
